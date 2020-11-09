@@ -1,3 +1,5 @@
+#Angular CLI: 10.2.0 Node: 14.15.0 OS: win32 x64
+
 # MyAppAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
