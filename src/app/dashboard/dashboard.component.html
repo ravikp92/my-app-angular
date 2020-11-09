@@ -1,0 +1,14 @@
+<h2>DashBoad menus</h2>
+
+<ul class="dashboards">
+<li *ngFor ="let dashboard of dashboards"
+[class.selected]="dashboard == selectedMenu"
+(click)="onSelect(dashboard)">    
+<span class="menu">{{dashboard.id}}</span>
+    {{dashboard.name}}
+</li>
+</ul>
+<app-menu-detail [dashboard]="selectedMenu"></app-menu-detail>
+
+
+

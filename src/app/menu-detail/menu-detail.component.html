@@ -1,0 +1,11 @@
+
+<div *ngIf="dashboard">
+    <h2>{{dashboard.name | uppercase}} Details</h2>
+    <div><span> ID: </span>
+        {{dashboard.id}} </div>
+            <div>
+                Name:
+                <input [(ngModel)]="dashboard.name"
+                placeholder="name"/>
+            </div>
+</div>
